@@ -1,83 +1,65 @@
-/*------ Document -----*/
-body{
-	margin:auto;
-	padding: 0;
-	font: .75em/1.5em Helvetica, Arial, sans-serif;
-	color: black;
-	border:2px dashed black;
-	width: 960px;
-	background: white;
+body {
+        margin: 0 auto;
+        padding: 0;
+        font: .75em/1.5em Helvetica, Arial, sans-serif;
+        color: #797267;
+        width: 960px;
+        background: #797267;
 }
-#main-content{
-	border:2px solid black;
-	border-radius:5
+header {
+        margin:solid red;
+        width :960px;
 }
-
-#current{
-	color:red;
-}
-#b{
-	height:210px;
-	width:960px;
-}
-#bn{
-	width:377px;
-	height:71px;
-	margin-left:64px;
-	margin-top:64px;
-}
-#bno{
-	padding-right:64px;
-	padding-left:64px;
-	margin-top:64px;
-	margin-bottom:64px;
-	margin-right:50px;
-	text-align:right;
-	color:#423b2e;
+#bi{
+  width:317px;
+        height:71px;
+        margin-left:64px;
+        margin-top:44px;
 
 }
-#banner{
-	height: 200px;
-	width: 960px;
-	background-color:black;
-	}
-/*box shadow :
-
-
-/*.page-flip{
-	position:relative;
-	margin-top:50px;
-	width:60%;
-	height:500px;
-	margin-bottom:10px;
-}*/
+#bii{
+  font-size:16px;
+  padding-right:24px;
+        padding-left:200px;
+        margin-top:84px;
+        margin-bottom:64px;
+        margin-right:10px;
+        text-align:right;
+        color:#423b2e;
+}
 #column1of2{
-color:#423b2e;
-font-size:1.5em;
+
 margin-left:64px;
 padding-left:25px;
 padding-bottom:45px;
 width:260px;
 
 }
+h2{
+  color:#423b2e;
+  font-size:1.5em;
+
+}
 #column2of2 {
-	padding-bottom:45px;
-	padding-left:25px;
-	margin-bottom:45px;
-color:#423b2e;
-font-size:1.5em;
+        padding-bottom:45px;
+        padding-left:25px;
+        margin-bottom:45px;
 width:450px;
 }
+#three{
+border:2px dashed black;
+background-color:white;
+margin-left:34px;
+margin-top:34px;
+margin-right:34px;
+margin-bottom:34px;
+}
+#current{
+  color:red;
+}
 
-#footer{
-	padding-top:92px;
-	clear: both;
-	position: relative;
-	text-align:center;
-  height:60px;
-	width:960px;
-	background-color:#797267;
-	font-size:0.9em;
-	color:#423b2e;
-
+footer{
+  text-align:center;
+  font-size:0.9em;
+  color:#423b2e;
 }
