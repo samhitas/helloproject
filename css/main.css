@@ -1,0 +1,140 @@
+/*------ Document -----*/
+body {
+	margin: 0 auto;
+	padding: 0;
+	font: .75em/1.5em Helvetica, Arial, sans-serif;
+	color: #797267;
+	width: 960px;
+	background: #797267;
+
+}
+header{
+	background-image:url('../images/header-bg.jpg') ;
+	background-repeat:no-repeat;
+	height:210px;
+
+}
+header h1{
+	display:inline-block;
+	background-image:url('../images/logo.gif') ;
+	background-repeat:no-repeat;
+	height:71px;
+	width:317px;
+	margin-left:64px;
+	margin-top:64px;
+
+}
+header h1 a{
+	float:left;
+	width:100%;
+	height:100%;
+	text-indent:-999px;:
+background:none;
+}
+header nav{
+	float:right;
+
+margin-top:84px;
+margin-right:104px;
+
+}
+header nav ul{
+	float:left;
+	padding:0;
+	margin:0;
+
+}
+header nav ul li{
+	float:left;
+	padding:0;
+	list-style:none;
+}
+
+header nav ul li a {
+	display:inline-block;
+	color:#423b2e;
+	text-transform:uppercase;
+	font-size:14px;
+	margin:0 7px;
+	font-weight:bold;
+	text-decoration:none;
+}
+header nav ul li:hover a{
+	color:#bf3102;
+}
+#main-content{
+	background:url('../images/main-content-bg.jpg');
+	float:left;
+	width:100%;
+}
+#banner{
+	height:200px;
+	width:890px;
+	background:url('../images/banner.jpg');
+	float:left;
+	margin-left:35px;
+}
+#column1of2{
+	background:url('../images/page-flip.png')no-repeat;
+	background-position:bottom;
+	margin-left:70px;
+	margin-top:30px;
+	float:left;
+	width:260px;
+	padding-left:25px;
+	padding-bottom:60px;
+}
+section h2{
+
+	border-bottom:2px solid black;
+
+	/*text-decoration:underline;*/
+  color:#423b2e;
+  font-size:1.5em;
+	padding-bottom:10px;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+#column1of2 p img{
+	float: left;
+	display: inline-block;
+	margin-right: 15px;
+}
+
+
+#column1of2 p{
+	padding-bottom: 24px;
+	margin-bottom: 10px;
+	border-bottom:2px solid black;
+	float: left;
+	width: 100%;
+	margin-top: 0;
+}
+
+
+#column2of2{
+	background:url('../images/page-flip.png')no-repeat;
+	background-position:left bottom;
+	margin-left:50px;
+	margin-top:30px;
+	float:left;
+	width:450px;
+	padding-left:25px;
+	padding-bottom:60px;
+
+}
+footer{
+	float:left;
+	width:100%;
+	background:url('../images/footer-bg.jpg')no-repeat;
+	margin-bottom:25px;
+
+}
+footer p{
+	float:left;
+	width:100%;
+	text-align:center;
+	margin-top:92px;
+	font-size:10px;
+	color:#423b2e;
+}
